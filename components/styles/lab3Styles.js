@@ -1,0 +1,72 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  main: {
+    height: 690,
+    backgroundColor: '#353A45',
+  },
+  image: {
+    alignSelf: 'center',
+    borderColor: 'black',
+    borderWidth: 4,
+    height: 200,
+    width: 300,
+    borderRadius: 37.5,
+    margin: 10,
+  },
+  image2: {
+    alignSelf: 'center',
+    borderColor: 'white',
+    borderWidth: 2,
+    borderRadius: 25,
+    height: 50,
+    width: 50,
+    margin: 5,
+  },
+  scroll: {
+    width: 10,
+    height: 200,
+    alignSelf: 'center',
+    borderRadius: 37.5,
+  },
+  box2: {
+    margin: 5,
+    borderRadius: 10,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 65,
+    width: 365,
+  },
+  boxShadow2: {
+    borderRadius: 10,
+    shadowOffset: {width: -8, height: -8},
+    shadowOpacity: 1,
+    shadowRadius: 16,
+    backgroundColor: '#353A45',
+    height: 60,
+    width: 360,
+  },
+  cont: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+  },
+  box: {
+    borderRadius: 30,
+    margin: 5,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 250,
+    width: 345,
+  },
+  boxShadow: {
+    shadowOffset: {width: -8, height: -8},
+    shadowOpacity: 1,
+    shadowRadius: 16,
+    borderRadius: 27.5,
+    backgroundColor: '#353A45',
+    height: 245,
+    width: 340,
+  },
+});
